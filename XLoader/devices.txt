@@ -1,0 +1,7 @@
+Mega(ATMEGA1280);m1280;stk500;57600;
+Duemilanove/Nano(ATmega328);m328p;stk500;57600;
+ProMini5v-16MHz(ATmega328);m328p;stk500;57600;
+ProMini3v3-8MHz(ATmega328);m328p;stk500;57600;
+Duemilanove/Nano(ATmega168);m168;stk500;19200;
+Uno(ATmega328);m328p;stk500;115200;
+Mega(ATMEGA2560);atmega2560;stk500v2;115200;
