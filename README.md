@@ -17,13 +17,13 @@ nRF24 connections (left is nRF24, right is arduino)
 
 CE- D7
 
-CSN     8
+CSN-D8
 
-MOSI   11
+MOSI-D11
 
-MISO   12
+MISO-D12
 
-SCK    13
+SCK-D13
 
 IMPORTANT: Add capacitor (104 ceramic or 47uF 25v) between VCC(3.3v) and Ground pins of NRF24l01
 
