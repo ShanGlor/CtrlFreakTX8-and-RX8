@@ -3,13 +3,11 @@
 
 
 
-CtrlFreak FC/Rx - 
+CtrlFreak FC/Rx -  Tested with 16MHz Nano, Uno or Duemilanove because of its 3.3v output to supply the NRF24 and the sensors. (Mega not yet supported).
 
-Use TMRH20 RF24 libs from Github.
+Upload the CtrlFreak6-QuadX-MPU6050-Nano Hex file using the XLoader.
 
-Tested with 16MHz Nano, Uno or Duemilanove because of its 3.3v output to supply the NRF24 and the sensors. (Mega not yet supported).
-
-ESCs/Motors use pins 9,6,5,3 instead of 9,10,11,3 because we allocated the hardware SPI pins for NRF24.
+ESCs/Motors use digital pins 9,6,5,3 instead of 9,10,11,3 because we allocated the hardware SPI pins for NRF24.
 
 vbat voltage divider to A3
 
