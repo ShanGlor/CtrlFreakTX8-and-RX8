@@ -13,13 +13,17 @@ vbat voltage divider to A3
 
 MPU6050 on I2c (A4 A5)
 
-nRF24 connections (left is nRF24, right is arduino):q
+nRF24 connections (left is nRF24, right is arduino)
 
-  CE      7
-  CSN     8
-  MOSI   11
-  MISO   12
-  SCK    13
+CE- D7
+
+CSN     8
+
+MOSI   11
+
+MISO   12
+
+SCK    13
 
 IMPORTANT: Add capacitor (104 ceramic or 47uF 25v) between VCC(3.3v) and Ground pins of NRF24l01
 
