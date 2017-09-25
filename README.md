@@ -5,13 +5,15 @@
 
 CtrlFreak FC/Rx - 
 
-Tested with 16MHz Nano/Uno and TMRH20 RF24 libs(Github) 
+Use TMRH20 RF24 libs from Github.
 
-Motors use pins 9,6,5,3 instead of 9,10,11,3 because we allocated the hardware SPI pins for NRF24
+Tested with 16MHz Nano, Uno or Duemilanove because of its 3.3v output to supply the NRF24 and the sensors. (Mega not yet supported).
+
+ESCs/Motors use pins 9,6,5,3 instead of 9,10,11,3 because we allocated the hardware SPI pins for NRF24.
 
 vbat voltage divider to A3
 
-MPU6050 on I2c (A4 A5)
+MPU6050 on I2c (A4/A5)
 
 nRF24 connections (left is nRF24, right is arduino)
 
