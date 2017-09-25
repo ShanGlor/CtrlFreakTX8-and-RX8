@@ -9,4 +9,4 @@ Default pins for ESC are changed, see Rx's sketch tabs NRF24
 HMC5883 magnetomer settings on Sensors.cpp was replaced by QMC5883 I2c and registry. 
 
 
-to do
+Fritzing diagram to do
