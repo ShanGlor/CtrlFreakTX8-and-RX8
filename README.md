@@ -1,2 +1,4 @@
-# CtrlFreak-10 Channel Tx/Rx and MultiWii
-Arduino-based Quadcopter Receiver/Flight Controller and DIY Transmitter using the NRF24 protocol
+# CtrlFreak-Tx10/MultiWiiNRF24
+Arduino-based Receiver/Flight Controller and DIY Transmitter using the NRF24
+
+to do
