@@ -1,12 +1,12 @@
-# CtrlFreak Tx and FC/Rx
-CtrlFreak Tx - Tested with Uno, Nano, Duemilanove, and Mega.  (Will also work on 16Mhz promini)
+# CtrlFreak Tx8 and FC/Rx
+CtrlFreak Tx8 - Tested with Uno, Nano, Duemilanove, and Mega.  (Will also work on 16Mhz promini)
 
-Default 6 channels to match the receiver.  Uncomment lines to make it 10 channels.
+Default 8 channels to match the receiver. 
 
-Check the Tx code for pinout to NRF24l01, thumbsticks and pots.
+Check the Tx sketch for pinout to NRF24l01, thumbsticks and pots.
 
 
-CtrlFreak FC/Rx -  Tested with 16MHz Nano, Uno and Duemilanove.  Nano is preferred because of its size, weight and the 3.3v output to supply the NRF24l01 and the sensors. Mega not yet supported.
+CtrlFreak FC/Rx -  Tested with 16MHz Nano, Uno and Duemilanove.  Nano is preferred because of its size and the 3.3v output to supply the NRF24l01 and the sensors. Mega not yet supported.
 
 Upload the CtrlFreak6-QuadX-MPU6050-Nano Hex file via XLoader.
 
