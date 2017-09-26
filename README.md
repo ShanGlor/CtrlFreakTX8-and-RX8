@@ -3,9 +3,8 @@ CtrlFreak Tx8 - Transmitter tested with Uno, Nano, Duemilanove, and Mega.  (Will
 
 Default 8 channels to match the receiver. 
 
-TX PINOUT:  
+TX PINOUT: Check the Tx sketch for pinout to NRF24l01, thumbsticks and pots.
 
-Check the Tx sketch for pinout to NRF24l01, thumbsticks and pots.
 
 
 CtrlFreak FC/Rx -  Tested on 16MHz 328 Nano.  Nano is preferred because of its size and the 3.3v output to supply the NRF24l01 and the sensors. Mega not yet supported.
