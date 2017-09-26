@@ -9,7 +9,7 @@ TX PINOUT: Check the Tx sketch for pinout to NRF24l01, thumbsticks and pots.
 
 CtrlFreak FC/Rx -  Tested on 16MHz 328 Nano.  Nano is preferred because of its size and the 3.3v output to supply the NRF24l01 and the sensors. Mega not yet supported.
 
-Upload the CtrlFreak8-QuadX-MPU6050-Nano.hex via XLoader to Nano (be mindful of board type or brick it) - at Device select Duemilanove/Nano(AtMEga328).
+Upload the CtrlFreak8-QuadX-MPU6050-Nano.hex via XLoader to Nano (be mindful of board type or brick it) - at Device select Duemilanove/Nano(AtMEga328). See downloaded image.
 
 CAUTION!:  Upload to Nano only! 
 
