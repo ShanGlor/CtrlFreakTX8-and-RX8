@@ -3,7 +3,7 @@ CtrlFreak Tx8 - Transmitter tested with Uno, Nano, Duemilanove, and Mega.  (Will
 
 Default 8 channels to match the receiver. 
 
-Check the Tx sketch for pinout to NRF24l01, thumbsticks and pots.
+TX PINOUT:  Check the Tx sketch for pinout to NRF24l01, thumbsticks and pots.
 
 
 CtrlFreak FC/Rx -  Tested on 16MHz 328 Nano.  Nano is preferred because of its size and the 3.3v output to supply the NRF24l01 and the sensors. Mega not yet supported.
@@ -19,7 +19,7 @@ voltage divider to A3 (vBat)
 MPU6050 on I2c (A4/A5)
 
 
-nRF24 connections (left is nRF24, right is arduino):
+RX PINOUT:  nRF24 connections (left is nRF24, right is arduino):
 
 CE- D7
 
@@ -35,3 +35,5 @@ IMPORTANT: Add capacitor (104 ceramic or 47uF 25v electrolytic) between VCC and 
 
 
 Fritzing Diagram:  To do...
+
+No guarantees.  No warranties.  Use at your own risk.
