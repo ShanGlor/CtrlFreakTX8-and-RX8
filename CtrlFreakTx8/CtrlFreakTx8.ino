@@ -1,4 +1,5 @@
 /*
+Created by ShanGlor
 NRF24L01 PA+ LNA as the transmitter 
 Tested with 16MHz Nano, Duemilanove and Mega 
 TMRH20 RF24 libs from  at github.  
