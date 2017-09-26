@@ -3,7 +3,9 @@ CtrlFreak Tx8 - Transmitter tested with Uno, Nano, Duemilanove, and Mega.  (Will
 
 Default 8 channels to match the receiver. 
 
-TX PINOUT:  Check the Tx sketch for pinout to NRF24l01, thumbsticks and pots.
+TX PINOUT:  
+
+Check the Tx sketch for pinout to NRF24l01, thumbsticks and pots.
 
 
 CtrlFreak FC/Rx -  Tested on 16MHz 328 Nano.  Nano is preferred because of its size and the 3.3v output to supply the NRF24l01 and the sensors. Mega not yet supported.
@@ -12,14 +14,15 @@ Upload the CtrlFreak8-QuadX-MPU6050-Nano.hex via XLoader to Nano (be mindful of 
 
 CAUTION!:  Upload to Nano only! 
 
+RX PINOUT: 
+
 ESCs/Motors use digital pins 9,6,5,3 instead of 9,10,11,3 because we allocated the hardware SPI pins for NRF24.
 
 voltage divider to A3 (vBat)
 
 MPU6050 on I2c (A4/A5)
 
-
-RX PINOUT:  nRF24 connections (left is nRF24, right is arduino):
+nRF24 connections (left is nRF24, right is arduino):
 
 CE- D7
 
