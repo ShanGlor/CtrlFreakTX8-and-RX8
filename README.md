@@ -1,14 +1,16 @@
-# CtrlFreak Tx8 and FC/Rx
-CtrlFreak Tx8 - Tested with Uno, Nano, Duemilanove, and Mega.  (Will also work on 16Mhz promini)
+# CtrlFreak Tx8 and QuadX FCRx
+CtrlFreak Tx8 - Transmitter tested with Uno, Nano, Duemilanove, and Mega.  (Will also work on 16Mhz promini)
 
 Default 8 channels to match the receiver. 
 
 Check the Tx sketch for pinout to NRF24l01, thumbsticks and pots.
 
 
-CtrlFreak FC/Rx -  Tested with 16MHz Nano, Uno and Duemilanove.  Nano is preferred because of its size and the 3.3v output to supply the NRF24l01 and the sensors. Mega not yet supported.
+CtrlFreak FC/Rx -  Tested on 16MHz 328 Nano.  Nano is preferred because of its size and the 3.3v output to supply the NRF24l01 and the sensors. Mega not yet supported.
 
-Upload the CtrlFreak8-QuadX-Hex file via XLoader (be mindful of board type or brick it - Nano Uno Duemilanove).
+Upload the CtrlFreak8-QuadX-MPU6050-Nano.hex via XLoader to Nano (be mindful of board type or brick it) - at Device select Duemilanove/Nano(AtMEga328).
+
+CAUTION!:  Upload to Nano only! 
 
 ESCs/Motors use digital pins 9,6,5,3 instead of 9,10,11,3 because we allocated the hardware SPI pins for NRF24.
 
