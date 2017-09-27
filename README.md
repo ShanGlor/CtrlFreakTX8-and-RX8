@@ -1,24 +1,19 @@
 # CtrlFreak Tx8 and QuadX FCRx
-CtrlFreak Tx8 - Transmitter tested with Uno, Nano, Duemilanove, and Mega.  (Will also work on 16Mhz promini)
+CtrlFreak Tx8 - Transmitter tested with Uno, Nano, Duemilanove, and Mega.  Not tested on 5v Promini but will work.
 
-You can use the FlyWiiGUI versions from Synerflight. 
-
-
-TX PINOUT: Check the Tx sketch for pinout to NRF24l01, thumbsticks and pots.
+TX PINOUT: Check the Tx sketch for pinout to NRF24l01, thumbsticks and pots.  
 
 
+CtrlFreak QuadX Flight Controller/Receiver -  Only supports QuadX type drone with MPU6050 only as IMU. Tested on 16MHz 328 Nano. Nano is preferred because of its size and the 3.3v output to supply the NRF24l01 and the sensors. Mega not yet supported.  PPM sequence is THROTTLE,PITCH,ROLL,YAW,AUX1,AUX2,AUX3,AUX4 
 
-CtrlFreak FC/Rx -  Tested on 16MHz 328 Nano.  Nano is preferred because of its size and the 3.3v output to supply the NRF24l01 and the sensors. Mega not yet supported.
+Compatible with FlyWiiGUIs from Synerflight (See Clifford's posts). 
 
-Upload the CtrlFreak8-QuadX-MPU6050-Nano.hex via XLoader to Nano (be mindful of board type or brick it) - at Device select Duemilanove/Nano(AtMEga328). See downloaded image.
 
-CAUTION!:  Upload to Nano only! 
+CAUTION!:  Upload only to a Nano.  Upload the CtrlFreak8-QuadX-MPU6050-Nano.hex via XLoader to Nano (be mindful of board type or brick it). See downloaded image.
 
 RX PINOUT: 
 
 ESCs/Motors use digital pins 9,6,5,3 instead of 9,10,11,3 because we allocated the hardware SPI pins for NRF24.
-
-voltage divider to A3 (vBat)
 
 MPU6050 on I2c (A4/A5)
 
@@ -36,7 +31,6 @@ SCK-D13
 
 IMPORTANT: Add capacitor (104 ceramic or 47uF 25v electrolytic) between VCC and Ground pins of NRF24l01
 
-
 Fritzing Diagram:  To do...
 
-No guarantees.  No warranties.  Use at your own risk.
+No guarantees.  No warranties.  Use at your own risk.  Fly safely and have fun!
