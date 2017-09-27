@@ -7,15 +7,15 @@ nRF24 connections (left is nRF24, right is arduino)
 
   nrf24   Uno/Duemilanove/Promini
   
-  CE      9
+  CE - 9
   
-  CSN     10
+  CSN - 10
   
-  MOSI   11
+  MOSI - 11
   
-  MISO   12
+  MISO - 12
   
-  SCK    13
+  SCK - 13
   
 
   nrf24   Mega - Check the sketch  
@@ -36,15 +36,15 @@ MPU6050 on I2c (A4/A5)
 
   nRF24 connections (left is nRF24, right is arduino):
 
-  CE- D7
+  CE - D7
 
-  CSN-D8
+  CSN - D8
 
-  MOSI-D11
+  MOSI - D11
 
-  MISO-D12
+  MISO - D12
 
-  SCK-D13
+  SCK - D13
 
 
 IMPORTANT: Add capacitor (104 ceramic or 47uF 25v electrolytic) between VCC and Ground pins of NRF24l01
