@@ -9,7 +9,7 @@ CtrlFreak QuadX Flight Controller/Receiver -  Only supports QuadX type drone wit
 Compatible with FlyWiiGUIs from Synerflight (See Clifford's posts). 
 
 
-CAUTION!:  Upload only to a Nano.  Upload the CtrlFreak8-QuadX-MPU6050-Nano.hex via XLoader to Nano (be mindful of board type or brick it). See downloaded image.
+CAUTION!:  Upload only to a Nano.  Upload the CtrlFreak8-QuadX-MPU6050-Nano.hex via XLoader. Select Duemilanove/Nano(ATmega328) as board.  See downloaded image.  Be mindful of board type or brick it. 
 
 RX PINOUT: 
 
