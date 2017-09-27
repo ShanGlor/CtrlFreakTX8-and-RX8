@@ -18,18 +18,7 @@ nRF24 connections (left is nRF24, right is arduino)
   SCK    13
   
 
-  nrf24   Mega
-  
-  CE      9
-  
-  CSN     53
-  
-  MOSI    51
-  
-  MISO     50
-  
-  SCK      52
-  
+  nrf24   Mega - Check the sketch  
 
 
 CtrlFreak QuadX Flight Controller/Receiver -  Only supports QuadX type drone with MPU6050 only as IMU. Tested on 16MHz 328 Nano. Nano is preferred because of its size and the 3.3v output to supply the NRF24l01 and the sensors. Mega not yet supported.  PPM sequence is THROTTLE,PITCH,ROLL,YAW,AUX1,AUX2,AUX3,AUX4 
@@ -45,7 +34,7 @@ ESCs/Motors use digital pins 9,6,5,3 instead of 9,10,11,3 because we allocated t
 
 MPU6050 on I2c (A4/A5)
 
-nRF24 connections (left is nRF24, right is arduino):
+  nRF24 connections (left is nRF24, right is arduino):
 
   CE- D7
 
