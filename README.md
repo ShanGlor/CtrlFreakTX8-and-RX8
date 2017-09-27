@@ -1,7 +1,8 @@
 # CtrlFreak Tx8 and QuadX FCRx
 CtrlFreak Tx8 - Transmitter tested with Uno, Nano, Duemilanove, and Mega.  (Will also work on 16Mhz promini)
 
-Default 8 channels to match the receiver. 
+You can use the FlyWiiGUI versions from Synerflight. 
+
 
 TX PINOUT: Check the Tx sketch for pinout to NRF24l01, thumbsticks and pots.
 
